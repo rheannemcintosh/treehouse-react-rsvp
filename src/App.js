@@ -1,6 +1,22 @@
 import './App.css';
 
 function App() {
+
+  state = {
+    guests: [
+      {
+        name: 'Rheanne',
+        isConfirmed: false
+      },
+      {
+        name: 'Linda',
+        isConfirmed: true
+      }
+    ]
+  }
+  
+  getTotalInvited = () => this.state.guests.length;
+
   return (
     <div className="App">
       <header>
