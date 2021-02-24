@@ -9,7 +9,11 @@ const Guest = props =>
     {props.name}
   </GuestName>
   <label>
-    <input type="checkbox" checked={props.isConfirmed} /> Confirmed
+    <input 
+        type="checkbox" 
+        checked={props.isConfirmed}
+        onChange={props.handleConfirmation}
+    /> Confirmed
   </label>
   <button onClick={props.handleEditing}>edit</button>
   <button>remove</button>
@@ -19,6 +23,7 @@ Guest.propTypes = {
     name: PropTypes.string.isRequired,
     isConfirmed: PropTypes.bool.isRequired,
     isEditing: PropTypes.bool.isRequired,
+    handleConfirmation: PropTypes.func.isRequired,
     handleEditing: PropTypes.func.isRequired
 }
 
