@@ -42,6 +42,19 @@ class App extends Component {
 
     toggleEditingAt = index =>
       this.toggleGuestPropertyAt("isEditing", index);
+
+    setNameAt = (name, indexToChange) =>
+      this.setState({
+        guests: this.state.guests.map((guest, index) => {
+          if (index === indexToChange) {
+            return {
+              ...guest,
+              name
+            };
+          }
+          return guest;
+        })
+      });
   
   getTotalInvited = () => this.state.guests.length;
 
@@ -83,6 +96,7 @@ render () {
           guests={this.state.guests}
           toggleConfirmationAt={this.toggleConfirmationAt}
           toggleEditingAt={this.toggleEditingAt}
+          setNameAt={this.setNameAt}
         />
       </div>
     </div>
