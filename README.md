@@ -1,3 +1,9 @@
+# RSVP - React Application
+
+This project is a React Application built by following the Treehouse Course **React By Example**. The project allows users to add guests to a guest list, as well as edit, confirm or delete a guest, and utilises a counter component to monitor the guests. A link to the original Treehouse Course can be found [here](https://teamtreehouse.com/library/react-by-example).
+
+This is one of the many repositories I created whilst taking part in the Treehouse 100 Days of Code Challenge. I took part in this challenge to improve my skills in areas I already work in on a daily basis (PHP, JavaScript), revisit some old languages from my University days (Java, C++), as well as learning some new languages along the way (Python, GO).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
