@@ -9,6 +9,7 @@
 import React, { Component } from 'react';
 import Counter from './Counter';
 import GuestList from './GuestList';
+import Header from './Header';
 
 /**
  * Create the App Component
@@ -146,19 +147,6 @@ class App extends Component {
 		return (
 			// Return the Components
 			<div className="App">
-				<header>
-					<h1>RSVP</h1>
-					<p>Guest Monitoring System</p>
-					<form onSubmit={this.newGuestSubmitHandler}>
-						<input 
-						type="text"
-							onChange    = {this.handleNameInput}
-							value       = {this.state.pendingGuest}
-							placeholder = "Invite Someone"
-						/>
-						<button type="submit" name="submit" value="submit">Submit</button>
-					</form>
-				</header>
 				<div class="main">
 					<div>
 						<h2>Invitees</h2>
@@ -189,6 +177,14 @@ class App extends Component {
 						pendingGuest         = {this.state.pendingGuest}
 					/>
 				</div>
+
+				{/* Display the Header Component */}
+				<Header
+					newGuestSubmitHandler = {this.newGuestSubmitHandler}
+					pendingGuest          = {this.state.pendingGuest}
+					handleNameInput       = {this.handleNameInput}
+				/>
+
 			</div>
 		);
 	}
