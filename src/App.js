@@ -8,7 +8,6 @@
 // Import Statements
 import React, { Component } from 'react';
 import Counter from './Counter';
-import GuestList from './GuestList';
 import Header from './Header';
 
 /**
@@ -166,16 +165,6 @@ class App extends Component {
 						numberUnconfirmed = {numberUnconfirmed}
 					/>
 
-					{/* Set the GuestList Component */}
-					<GuestList 
-						guests               = {this.state.guests}
-						toggleConfirmationAt = {this.toggleConfirmationAt}
-						toggleEditingAt      = {this.toggleEditingAt}
-						setNameAt            = {this.setNameAt}
-						isFiltered           = {this.state.isFiltered}
-						removeGuestAt        = {this.removeGuestAt}
-						pendingGuest         = {this.state.pendingGuest}
-					/>
 				</div>
 
 				{/* Display the Header Component */}

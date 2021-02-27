@@ -9,7 +9,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Guest from './Guest';
-import PendingGuest from './PendingGuest';
+import PendingGuest from '../PendingGuest';
 
 /**
  * Create the GuestList Component
