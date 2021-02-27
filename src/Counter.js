@@ -1,7 +1,20 @@
+/**
+ * Counter.js
+ * 
+ * @file Manages the Counter Component
+ * @author Rheanne McIntosh <rheanne.mcintosh@outlook.com>
+ */
+
+// Import Statements
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Counter = props =>
+/**
+ * Create the Counter Component
+ * 
+ * @param {*} props 
+ */
+const Counter = props => 
     <table class="counter">
         <tbody>
             <tr>
@@ -19,10 +32,12 @@ const Counter = props =>
         </tbody>
     </table>
 
+// Set the Counter Prop Types
 Counter.propTypes = {
-    numberAttending: PropTypes.number,
+    numberAttending:   PropTypes.number,
     numberUnconfirmed: PropTypes.number,
-    totalInvited: PropTypes.number,
+    totalInvited:      PropTypes.number,
 };
 
+// Export the Counter Component
 export default Counter;
