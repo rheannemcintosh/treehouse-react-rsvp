@@ -7,8 +7,8 @@
 
 // Import Statements
 import React, { Component } from 'react';
-import Counter from './Counter';
 import Header from './Header';
+import MainContent from './MainContent';
 
 /**
  * Create the App Component
@@ -146,26 +146,6 @@ class App extends Component {
 		return (
 			// Return the Components
 			<div className="App">
-				<div class="main">
-					<div>
-						<h2>Invitees</h2>
-						<label>
-							<input 
-								type     = "checkbox"
-								onChange = {this.toggleFilter}
-								checked  = {this.state.isFiltered}
-							/> Hide those who haven't responded
-						</label>
-					</div>
-
-					{/* Set the Counter Component */}
-					<Counter
-						totalInvited      = {totalInvited}
-						numberAttending   = {numberAttending}
-						numberUnconfirmed = {numberUnconfirmed}
-					/>
-
-				</div>
 
 				{/* Display the Header Component */}
 				<Header
@@ -174,6 +154,20 @@ class App extends Component {
 					handleNameInput       = {this.handleNameInput}
 				/>
 
+				{/* Display the Main Content Component */}
+				<MainContent
+					toggleFilter         = {this.toggleFilter}
+					isFiltered           = {this.state.isFiltered}
+					totalInvited         = {totalInvited}
+					numberAttending      = {numberAttending}
+					numberUnconfirmed    = {numberUnconfirmed}
+					guests               = {this.state.guests}
+					toggleConfirmationAt = {this.toggleConfirmationAt}
+					toggleEditingAt      = {this.toggleEditingAt}
+					setNameAt            = {this.setNameAt}
+					removeGuestAt        = {this.removeGuestAt}
+					pendingGuest         = {this.state.pendingGuest}
+				/>
 			</div>
 		);
 	}
