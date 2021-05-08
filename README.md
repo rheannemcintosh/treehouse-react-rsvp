@@ -4,73 +4,31 @@ This project is a React Application built by following the Treehouse Course **Re
 
 This is one of the many repositories I created whilst taking part in the Treehouse 100 Days of Code Challenge. I took part in this challenge to improve my skills in areas I already work in on a daily basis (PHP, JavaScript), revisit some old languages from my University days (Java, C++), as well as learning some new languages along the way (Python, GO).
 
-# Getting Started with Create React App
+## Project Overview
+The Dice Roller Application is a Python command line application which I created at the start of my Python journey. The application is based off of a Treehouse Tutorial which can be accessed [here](https://teamtreehouse.com/library/project-breakdown). This is also a part of my 1<sup>st</sup> round of the **100 Days of Code Challenge**.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inital Work
+The inital work was completed by following along the with the Treehouse tutorial, with some small edits along the way.
 
-## Available Scripts
+## Next Steps
+:white_check_mark: Upload Code
 
-In the project directory, you can run:
+:white_check_mark: Format Code
 
-### `npm start`
+:white_check_mark: Update README
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+:white_check_mark: Update Repository
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+:black_square_button: Post on Instagram
 
-### `npm test`
+:white_check_mark: Update Wiki
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:black_square_button: Expand Yatzy Funcitionality ([See Kenneth Love's Example](https://github.com/kennethlove/yatzy))
 
-### `npm run build`
+## Notes
+- **Language:** Python
+- **Author:** Rheanne McIntosh
+- **100 Days of Treehouse:** Day 11 / 100
+- **Treehouse Tutorial:** [Object-Oriented Python](https://teamtreehouse.com/library/objectoriented-python-2)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or can suggest any improvements, please let me know!
